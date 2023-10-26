@@ -1,4 +1,4 @@
-<script>
+
     // CHANGE IMAGES DEPENDS ON LANGUAGE
   targetPage = "sales";
   // Get the data for the target page
@@ -23,4 +23,3 @@
           console.log("Target element not found with data-title:", dataTitle);
       }
   }
-    </script>
