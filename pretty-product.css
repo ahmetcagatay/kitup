@@ -1,16 +1,15 @@
-  
-  // var highlightProductName = "3 Months";
-  // var highlightedText = "Recommended";
-  // var highlightProductID = "4602003";
-  // var currencySymbol = "$"; // copy paste the symbols -> "$" "₺" "€"
-  // // LEFT PRICE PARAMS
-  // var total_discounts = ["15.99", "32.99", "65.99"];
-  // var total_prices = ["11.99", "24.99", "49.99"];
-  // // RIGHT PRICE PARAMS
-  // var discount_prices = ["0.57", "0.36", "0.36"];
-  // var prices = ["0.39", "0.27", "0.27"];
-  // var dayText = "day";
-  
+  var highlightProductName = "3 Months";
+  var highlightedText = "Recommended";
+  var highlightProductID = "4602003";
+  var currencySymbol = "$"; // copy paste the symbols -> "$" "₺" "€"
+  // LEFT PRICE PARAMS
+  var total_discounts = ["15.99", "32.99", "65.99"];
+  var total_prices = ["11.99", "24.99", "49.99"];
+  // RIGHT PRICE PARAMS
+  var discount_prices = ["0.57", "0.36", "0.36"];
+  var prices = ["0.39", "0.27", "0.27"];
+  var dayText = "day";
+
   // HIGHLIGHTED - RECOMMENDED ELEMENT BEAUTY
   var dataProductNameElement = document.querySelector(`[data-product-name="${highlightProductName}"]`);
 
